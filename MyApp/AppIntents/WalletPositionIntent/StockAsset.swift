@@ -8,10 +8,12 @@
 import Foundation
 
 class StockAsset {
+    var name: String
     var ticker: String
     var currentValue: Double
     
-    init(ticker: String, currentValue: Double) {
+    init(name: String, ticker: String, currentValue: Double) {
+        self.name = name
         self.ticker = ticker
         self.currentValue = currentValue
     }

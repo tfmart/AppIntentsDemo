@@ -6,6 +6,7 @@
 //
 
 import AppIntents
+import SwiftUI
 
 struct WalletPositionIntent: AppIntent {
     @Parameter(title: "Stock Asset")
@@ -20,6 +21,7 @@ struct WalletPositionIntent: AppIntent {
     }
     
     func perform() async throws -> some IntentResult {
-        return .result(dialog: IntentDialog(stringLiteral: "You currently position at \(asset.asset.ticker) is worth $\(String(format: "%.2f", asset.asset.currentValue))"))
+        return .result(dialog: IntentDialog(stringLiteral: "You currently position at \(asset.asset.ticker) is worth $\(String(format: "%.2f", asset.asset.currentValue))"),
+                       view: PositionPromptView(entity: asset))
     }
 }

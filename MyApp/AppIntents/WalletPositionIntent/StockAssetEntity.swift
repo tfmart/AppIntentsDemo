@@ -17,6 +17,6 @@ struct StockAssetEntity: AppEntity, Identifiable {
     static var typeDisplayRepresentation: TypeDisplayRepresentation = "Stock Asset"
     
     var displayRepresentation: DisplayRepresentation {
-        return DisplayRepresentation(stringLiteral: asset.ticker)
+        return DisplayRepresentation(stringLiteral: asset.name)
     }
 }

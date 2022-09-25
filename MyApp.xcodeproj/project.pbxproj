@@ -23,6 +23,7 @@
 		7C2BCA2528E0D6AC00000211 /* StockAssetEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2BCA1B28E0D6AC00000211 /* StockAssetEntity.swift */; };
 		7C2BCA2D28E0F66E00000211 /* OpenMessageIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2BCA2C28E0F66D00000211 /* OpenMessageIntent.swift */; };
 		7C2BCA2F28E0F69B00000211 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2BCA2E28E0F69B00000211 /* Navigator.swift */; };
+		7C2BCA3528E0FD8800000211 /* PositionPromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2BCA3428E0FD8800000211 /* PositionPromptView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		7C2BCA1B28E0D6AC00000211 /* StockAssetEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockAssetEntity.swift; sourceTree = "<group>"; };
 		7C2BCA2C28E0F66D00000211 /* OpenMessageIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenMessageIntent.swift; sourceTree = "<group>"; };
 		7C2BCA2E28E0F69B00000211 /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		7C2BCA3428E0FD8800000211 /* PositionPromptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionPromptView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 				7C2BCA1928E0D6AC00000211 /* WalletPositionIntent.swift */,
 				7C2BCA1A28E0D6AC00000211 /* Wallet.swift */,
 				7C2BCA1B28E0D6AC00000211 /* StockAssetEntity.swift */,
+				7C2BCA3428E0FD8800000211 /* PositionPromptView.swift */,
 			);
 			path = WalletPositionIntent;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 				7C2BCA2F28E0F69B00000211 /* Navigator.swift in Sources */,
 				7C2BCA2028E0D6AC00000211 /* MyFirstAppIntent.swift in Sources */,
 				7C2BCA1D28E0D6AC00000211 /* GreetingIntent.swift in Sources */,
+				7C2BCA3528E0FD8800000211 /* PositionPromptView.swift in Sources */,
 				7C2BCA1F28E0D6AC00000211 /* HeartColor.swift in Sources */,
 				7C2BC9F328E0013E00000211 /* MyAppApp.swift in Sources */,
 				7C2BCA2D28E0F66E00000211 /* OpenMessageIntent.swift in Sources */,
@@ -374,6 +378,7 @@
 				DEVELOPMENT_TEAM = ZTGHLM6H83;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "My App";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -403,6 +408,7 @@
 				DEVELOPMENT_TEAM = ZTGHLM6H83;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "My App";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

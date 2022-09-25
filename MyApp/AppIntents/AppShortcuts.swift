@@ -12,7 +12,7 @@ struct AppShortcuts: AppShortcutsProvider {
         AppShortcut(
             intent: MyFirstAppIntent(),
             phrases: [
-                "Say hi to mom with \(.applicationName)",
+                "Say hi with \(.applicationName)",
                 "Tell mom I said hi with \(.applicationName)"
             ]
         )
@@ -28,14 +28,15 @@ struct AppShortcuts: AppShortcutsProvider {
             phrases: [
                 "Show me a colorful heart with \(.applicationName)",
                 "Show me a heart with \(.applicationName)",
-                "Show me a \(\.$color) heart with \(.applicationName)"
+                "Show me a \(\.$color) heart with \(.applicationName)",
+                "Show me a \(\.$color) heart"
             ]
         )
         AppShortcut(
             intent: WalletPositionIntent(),
             phrases: [
                 "Show my current position with \(.applicationName)",
-                "Show my current position for \(\.$asset)"
+                "Show my current position for \(\.$asset) with \(.applicationName)"
             ]
         )
     }
