@@ -11,7 +11,18 @@
 		7C2BC9F528E0013E00000211 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2BC9F428E0013E00000211 /* ContentView.swift */; };
 		7C2BC9F728E0014000000211 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C2BC9F628E0014000000211 /* Assets.xcassets */; };
 		7C2BC9FA28E0014000000211 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C2BC9F928E0014000000211 /* Preview Assets.xcassets */; };
-		7C2BCA0128E0015500000211 /* AppIntents in Resources */ = {isa = PBXBuildFile; fileRef = 7C2BCA0028E0015500000211 /* AppIntents */; };
+		7C2BCA1C28E0D6AC00000211 /* AppShortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2BCA0E28E0D6AC00000211 /* AppShortcuts.swift */; };
+		7C2BCA1D28E0D6AC00000211 /* GreetingIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2BCA1028E0D6AC00000211 /* GreetingIntent.swift */; };
+		7C2BCA1E28E0D6AC00000211 /* ColoredHeartIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2BCA1228E0D6AC00000211 /* ColoredHeartIntent.swift */; };
+		7C2BCA1F28E0D6AC00000211 /* HeartColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2BCA1328E0D6AC00000211 /* HeartColor.swift */; };
+		7C2BCA2028E0D6AC00000211 /* MyFirstAppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2BCA1528E0D6AC00000211 /* MyFirstAppIntent.swift */; };
+		7C2BCA2128E0D6AC00000211 /* StockAssetQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2BCA1728E0D6AC00000211 /* StockAssetQuery.swift */; };
+		7C2BCA2228E0D6AC00000211 /* StockAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2BCA1828E0D6AC00000211 /* StockAsset.swift */; };
+		7C2BCA2328E0D6AC00000211 /* WalletPositionIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2BCA1928E0D6AC00000211 /* WalletPositionIntent.swift */; };
+		7C2BCA2428E0D6AC00000211 /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2BCA1A28E0D6AC00000211 /* Wallet.swift */; };
+		7C2BCA2528E0D6AC00000211 /* StockAssetEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2BCA1B28E0D6AC00000211 /* StockAssetEntity.swift */; };
+		7C2BCA2D28E0F66E00000211 /* OpenMessageIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2BCA2C28E0F66D00000211 /* OpenMessageIntent.swift */; };
+		7C2BCA2F28E0F69B00000211 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2BCA2E28E0F69B00000211 /* Navigator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +31,18 @@
 		7C2BC9F428E0013E00000211 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7C2BC9F628E0014000000211 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C2BC9F928E0014000000211 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7C2BCA0028E0015500000211 /* AppIntents */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIntents; sourceTree = "<group>"; };
+		7C2BCA0E28E0D6AC00000211 /* AppShortcuts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppShortcuts.swift; sourceTree = "<group>"; };
+		7C2BCA1028E0D6AC00000211 /* GreetingIntent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreetingIntent.swift; sourceTree = "<group>"; };
+		7C2BCA1228E0D6AC00000211 /* ColoredHeartIntent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColoredHeartIntent.swift; sourceTree = "<group>"; };
+		7C2BCA1328E0D6AC00000211 /* HeartColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartColor.swift; sourceTree = "<group>"; };
+		7C2BCA1528E0D6AC00000211 /* MyFirstAppIntent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFirstAppIntent.swift; sourceTree = "<group>"; };
+		7C2BCA1728E0D6AC00000211 /* StockAssetQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockAssetQuery.swift; sourceTree = "<group>"; };
+		7C2BCA1828E0D6AC00000211 /* StockAsset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockAsset.swift; sourceTree = "<group>"; };
+		7C2BCA1928E0D6AC00000211 /* WalletPositionIntent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletPositionIntent.swift; sourceTree = "<group>"; };
+		7C2BCA1A28E0D6AC00000211 /* Wallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
+		7C2BCA1B28E0D6AC00000211 /* StockAssetEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockAssetEntity.swift; sourceTree = "<group>"; };
+		7C2BCA2C28E0F66D00000211 /* OpenMessageIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenMessageIntent.swift; sourceTree = "<group>"; };
+		7C2BCA2E28E0F69B00000211 /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +75,8 @@
 		7C2BC9F128E0013E00000211 /* MyApp */ = {
 			isa = PBXGroup;
 			children = (
-				7C2BCA0028E0015500000211 /* AppIntents */,
+				7C2BCA3028E0F73700000211 /* Helpers */,
+				7C2BCA0D28E0D6AC00000211 /* AppIntents */,
 				7C2BC9F228E0013E00000211 /* MyAppApp.swift */,
 				7C2BC9F428E0013E00000211 /* ContentView.swift */,
 				7C2BC9F628E0014000000211 /* Assets.xcassets */,
@@ -68,6 +91,72 @@
 				7C2BC9F928E0014000000211 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7C2BCA0D28E0D6AC00000211 /* AppIntents */ = {
+			isa = PBXGroup;
+			children = (
+				7C2BCA0E28E0D6AC00000211 /* AppShortcuts.swift */,
+				7C2BCA1428E0D6AC00000211 /* MyFirstAppIntent */,
+				7C2BCA0F28E0D6AC00000211 /* GreetingIntent */,
+				7C2BCA1128E0D6AC00000211 /* ColoredHeartIntent */,
+				7C2BCA1628E0D6AC00000211 /* WalletPositionIntent */,
+				7C2BCA2B28E0F64700000211 /* OpenMessageIntent */,
+			);
+			path = AppIntents;
+			sourceTree = "<group>";
+		};
+		7C2BCA0F28E0D6AC00000211 /* GreetingIntent */ = {
+			isa = PBXGroup;
+			children = (
+				7C2BCA1028E0D6AC00000211 /* GreetingIntent.swift */,
+			);
+			path = GreetingIntent;
+			sourceTree = "<group>";
+		};
+		7C2BCA1128E0D6AC00000211 /* ColoredHeartIntent */ = {
+			isa = PBXGroup;
+			children = (
+				7C2BCA1228E0D6AC00000211 /* ColoredHeartIntent.swift */,
+				7C2BCA1328E0D6AC00000211 /* HeartColor.swift */,
+			);
+			path = ColoredHeartIntent;
+			sourceTree = "<group>";
+		};
+		7C2BCA1428E0D6AC00000211 /* MyFirstAppIntent */ = {
+			isa = PBXGroup;
+			children = (
+				7C2BCA1528E0D6AC00000211 /* MyFirstAppIntent.swift */,
+			);
+			path = MyFirstAppIntent;
+			sourceTree = "<group>";
+		};
+		7C2BCA1628E0D6AC00000211 /* WalletPositionIntent */ = {
+			isa = PBXGroup;
+			children = (
+				7C2BCA1728E0D6AC00000211 /* StockAssetQuery.swift */,
+				7C2BCA1828E0D6AC00000211 /* StockAsset.swift */,
+				7C2BCA1928E0D6AC00000211 /* WalletPositionIntent.swift */,
+				7C2BCA1A28E0D6AC00000211 /* Wallet.swift */,
+				7C2BCA1B28E0D6AC00000211 /* StockAssetEntity.swift */,
+			);
+			path = WalletPositionIntent;
+			sourceTree = "<group>";
+		};
+		7C2BCA2B28E0F64700000211 /* OpenMessageIntent */ = {
+			isa = PBXGroup;
+			children = (
+				7C2BCA2C28E0F66D00000211 /* OpenMessageIntent.swift */,
+			);
+			path = OpenMessageIntent;
+			sourceTree = "<group>";
+		};
+		7C2BCA3028E0F73700000211 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7C2BCA2E28E0F69B00000211 /* Navigator.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,7 +218,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C2BC9FA28E0014000000211 /* Preview Assets.xcassets in Resources */,
-				7C2BCA0128E0015500000211 /* AppIntents in Resources */,
 				7C2BC9F728E0014000000211 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,8 +229,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C2BCA1E28E0D6AC00000211 /* ColoredHeartIntent.swift in Sources */,
 				7C2BC9F528E0013E00000211 /* ContentView.swift in Sources */,
+				7C2BCA2528E0D6AC00000211 /* StockAssetEntity.swift in Sources */,
+				7C2BCA2128E0D6AC00000211 /* StockAssetQuery.swift in Sources */,
+				7C2BCA2428E0D6AC00000211 /* Wallet.swift in Sources */,
+				7C2BCA1C28E0D6AC00000211 /* AppShortcuts.swift in Sources */,
+				7C2BCA2228E0D6AC00000211 /* StockAsset.swift in Sources */,
+				7C2BCA2F28E0F69B00000211 /* Navigator.swift in Sources */,
+				7C2BCA2028E0D6AC00000211 /* MyFirstAppIntent.swift in Sources */,
+				7C2BCA1D28E0D6AC00000211 /* GreetingIntent.swift in Sources */,
+				7C2BCA1F28E0D6AC00000211 /* HeartColor.swift in Sources */,
 				7C2BC9F328E0013E00000211 /* MyAppApp.swift in Sources */,
+				7C2BCA2D28E0F66E00000211 /* OpenMessageIntent.swift in Sources */,
+				7C2BCA2328E0D6AC00000211 /* WalletPositionIntent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

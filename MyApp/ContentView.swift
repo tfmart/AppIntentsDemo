@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var navigator: Navigator = .shared
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -16,6 +17,14 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
+        .sheet(isPresented: $navigator.isPresentingMessage) {
+            VStack {
+                Image(systemName: "square.2.stack.3d.top.filled")
+                    .imageScale(.large)
+                    .foregroundColor(.accentColor)
+                Text(navigator.message)
+            }
+        }
     }
 }
 
