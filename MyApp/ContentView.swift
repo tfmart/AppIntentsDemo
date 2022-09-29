@@ -11,7 +11,7 @@ import AppIntents
 
 struct ContentView: View {
     @ObservedObject var navigator: Navigator = .shared
-    @State var showInfo: Bool = true
+    @State var showInfo: Bool = false
     var body: some View {
         NavigationView {
             VStack {
